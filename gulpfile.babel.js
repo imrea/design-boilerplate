@@ -120,10 +120,10 @@ gulp.task('watch', done => {
   gulp.watch(path.join('js', '**/*'), { cwd: './' }, ['js']);
 })
 
-gulp.task('serve', done => {
-  rs('clean', ['fonts', 'css', 'js'], 'browsersync', 'watch', done);
-});
-
 gulp.task('build', done => {
   rs('clean', ['fonts', 'css', 'js'], done);
+});
+
+gulp.task('serve', done => {
+  rs('build', 'browsersync', 'watch', done);
 });
