@@ -1,0 +1,51 @@
+// VENDORS
+// (from `node_modules`, defined in SASS includePaths)
+@import 'normalize.css/normalize';
+@import 'font-awesome/css/font-awesome.min';
+// @import 'modularscale-sass/stylesheets/modularscale';
+// @import 'include-media/dist/include-media';
+
+
+// ABSTRACTS
+// (manually imported - order is important)
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+
+// BASE
+// (manually imported - order is important)
+@import 'base/font_families';
+@import 'base/base';
+@import 'base/typography';
+
+
+// LAYOUT
+// (auto-injected - order shouldn't be important)
+/* layout:scss */
+/* endinject */
+
+
+// COMPONENTS
+// (auto-injected - order shouldn't be important)
+/* components:scss */
+/* endinject */
+
+
+// PAGES
+// (auto-injected - order shouldn't be important)
+/* pages:scss */
+/* endinject */
+
+
+// THEMES
+// (auto-injected - order shouldn't be important)
+/* themes:scss */
+/* endinject */
+
+
+// OVERRIDES
+// (auto-injected - order shouldn't be important)
+/* overrides:scss */
+/* endinject */
